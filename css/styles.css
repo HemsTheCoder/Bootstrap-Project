@@ -86,8 +86,12 @@
     padding-bottom: 3%;
 }
 
-.fa-solid:hover {
+.icon-col:hover {
     color: #ff4c68;
+}
+.foot-ani:hover{
+    transition: ease-in-out 0.6s;
+    transform: scale(1.5);
 }
 
 #testimonials {
@@ -147,11 +151,16 @@
 .foot-col{
     color: #fff;
 }
+.foot-icon{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+}
 
 @media (max-width:1000px) {
     #title {
         overflow: none;
-        height: 150vh;
+        height: 100vh;
     }
 
     .sfont {
