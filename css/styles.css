@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@700&display=swap');
+
+#title {
+    background-color: #ff4c68;
+    height: 95vh;
+}
+
+.nav-align {
+    margin-left: 70%;
+}
+
+.logo-font {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-left: 50%;
+}
+
+.sfont,.cta-head  {
+    font-family: 'Montserrat';
+    color: #fff;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.fe-title,
+.plan-head,.form-label {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.fe-para,
+.price-para {
+    color: #8f8f8f;
+}
+
+.pad {
+    padding: 3% 15%;
+
+}
+
+.hero {
+    padding-top: 10%;
+}
+
+.ph-img {
+
+    width: 60%;
+    animation: animate 1s ease-in-out alternate-reverse infinite;
+}
+
+@keyframes animate {
+    0% {
+
+        transform: rotate(25deg);
+    }
+
+    100% {
+        transform: rotate(20deg);
+    }
+}
+
+.head-align {
+    margin-top: 100px;
+}
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fbfbfb;
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.icon-col {
+    color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.fa-solid:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    padding: 7% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: #fbfbfb;
+}
+
+.testimonial-head,
+.price-head,
+.amount{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 10px 10px;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+#press {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 400px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.price-col {
+    padding: 3% 2%;
+}
+
+.card-dis {
+    height: 200px;
+}
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+#footer,#contact{
+    padding: 7% 15%;
+}
+.foot-col{
+    color: #fff;
+}
+
+@media (max-width:1000px) {
+    #title {
+        overflow: none;
+        height: 150vh;
+    }
+
+    .sfont {
+        font-size: 3rem;
+    }
+
+    .testimonial-head {
+        font-size: 2.5rem;
+    }
+
+}
+
+@media (max-width:700px) {
+    #testimonials {
+        padding: 10% 5%;
+    }
+
+    .testimonial-head {
+        font-size: 2.5rem;
+    }
+
+}
